@@ -8,7 +8,7 @@ int main()
 {
     // Confirmation
     std::string confirmation = "no";
-    std::cout << "This program is dangerous! Are you sure that you want to run this?\n";
+    std::cout << "Type yes for db exploit, type no for going back.\n";
     std::cout << "Please type 'yes' or type 'no'\n>";
     std::cin >> confirmation;
     if (confirmation != "yes") { printf("Exiting program..."); return -1; }
